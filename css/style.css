@@ -1,25 +1,27 @@
 body {
   background-color: #fff;
+  font-family: "Roboto", sans-serif;
 }
 ul {
   list-style: none;
 }
 /*ШАПКА САЙТА*/
-.logo1 {
+.logo-prefix {
   color: #2196f3;
 }
 .logo {
+  color: #212121;
   width: 153px;
   height: 31px;
   left: 215px;
   top: 24px;
-
-  font-family: Raleway;
-  font-style: normal;
   font-weight: bold;
+  font-family: "Raleway", sans-serif;
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
+
+  text-decoration: none;
 }
 .studio {
   width: 49px;
@@ -27,13 +29,13 @@ ul {
   left: 453px;
   top: 32px;
 
-  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #2196f3;
+  text-decoration: none;
 }
 .portfolio {
   width: 77px;
@@ -41,7 +43,6 @@ ul {
   left: 552px;
   top: 32px;
 
-  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -49,6 +50,7 @@ ul {
   letter-spacing: 0.02em;
 
   color: #212121;
+  text-decoration: none;
 }
 .contacts {
   width: 77px;
@@ -56,7 +58,6 @@ ul {
   left: 552px;
   top: 32px;
 
-  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -64,6 +65,7 @@ ul {
   letter-spacing: 0.02em;
 
   color: #212121;
+  text-decoration: none;
 }
 .header-address {
   width: 122px;
@@ -71,7 +73,6 @@ ul {
   left: 1263px;
   top: 32px;
 
-  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -79,19 +80,53 @@ ul {
   letter-spacing: 0.02em;
 
   color: #757575;
+  text-decoration: none;
 }
-.logo2 {
-  width: 153px;
-  height: 31px;
-  left: 215px;
-  top: 24px;
 
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 31px;
-  letter-spacing: 0.03em;
+/*HERO СЕКЦИЯ*/
 
+/* .hero {
+  background: url(../images/hero/hero-bg.jpg) center center/cover no-repeat;
+} */
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+/* .example {
+порядок важливий 
+}
+
+.example:hover {
+  
+} */
+
+button:hover {
+  cursor: pointer;
+}
+
+button:focus {
+  background-color: #2196f3;
+}
+
+/* О НАС СЕКЦИЯ*/
+.paragraph-text {
+  color: #757575;
+}
+
+/* ЧЕМ МЫ ЗАНИМАЕСЯ СЕКЦИЯ*/
+.second-tite {
   color: #212121;
+}
+.item-text {
+  color: #ffffff;
+}
+
+/*НАША КОМАНДА СЕКЦИЯ*/
+.profession-text {
+  color: #757575;
 }

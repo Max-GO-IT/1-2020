@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&amp;family=Roboto:wght@400;500;700;900&amp;display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
 
@@ -12,7 +16,7 @@
     <header>
       <nav>
         <a class="logo" href="./index.html"
-          ><span class="logo1">Web</span> <span class="logo2">Studio</span></a
+          ><span class="logo-prefix">Web</span> Studio</a
         >
         <ul>
           <li>
@@ -37,8 +41,8 @@
     </header>
     <main>
       <!--HERO секция-->
-      <section>
-        <h1>
+      <section class="hero">
+        <h1 class="hero-title">
           Эффективные решения<br />
           для вашего бизнеса
         </h1>
@@ -52,7 +56,7 @@
               <img src="./images/icon/vector.svg" alt="иконка_антенны"
             /></a>
             <h3>Внимание к деталям</h3>
-            <p>
+            <p class="paragraph-text">
               Идейные соображения, а также начало<br />
               повседневной работы по формированию<br />
               позиции.
@@ -64,7 +68,7 @@
               ><img src="./images/icon/vector-1.svg" alt="иконка_часов"
             /></a>
             <h3>Пунктуальность</h3>
-            <p>
+            <p class="paragraph-text">
               Задача организации, в особенности же рамки и<br />
               место обучения кадров влечет за собой.
             </p>
@@ -75,7 +79,7 @@
               <img src="./images/icon/vector-2.svg" alt="иконка_компьютера"
             /></a>
             <h3>Планирование</h3>
-            <p>
+            <p class="paragraph-text">
               Равным образом консультация с широким<br />
               активом в значительной степени обуславливает.
             </p>
@@ -86,7 +90,7 @@
               <img src="./images/icon/vector-3.svg" alt="иконка_космонавта"
             /></a>
             <h3>Современные технологии</h3>
-            <p>
+            <p class="paragraph-text">
               Значимость этих проблем настолько очевидна,<br />
               что реализация плановых заданий.
             </p>
@@ -96,9 +100,10 @@
 
       <!--ЧЕМ МЫ ЗАНИМАЕМСЯ-->
       <section>
+        <h2 class="second-title">Чем мы занимаемся</h2>
         <ul>
           <li>
-            <h3>десктопные приложения</h3>
+            <h3 class="item-text">десктопные приложения</h3>
             <img
               src="./images/what_we_do/img.jpg"
               alt="картинка ноутбука"
@@ -107,7 +112,7 @@
             />
           </li>
           <li>
-            <h3>мобильные приложения</h3>
+            <h3 class="item-text">мобильные приложения</h3>
             <img
               src="./images/what_we_do/box.jpg"
               alt="картинка смартфона"
@@ -116,7 +121,7 @@
             />
           </li>
           <li>
-            <h3>дизайнерские решения</h3>
+            <h3 class="item-text">дизайнерские решения</h3>
             <img
               src="./images/what_we_do/img1.jpg"
               alt="картинка монитора"
@@ -139,7 +144,7 @@
               height="260"
             />
             <h3>Николай Кучеренко</h3>
-            <p>Product Designer</p>
+            <p class="profession-text">Product Designer</p>
             <ul>
               <li><a href="" aria-label="иконка инстаграма"></a></li>
               <li><a href="" aria-label="иконка твиттера"></a></li>
@@ -156,7 +161,7 @@
               height="260"
             />
             <h3>Ольга Иванова</h3>
-            <p>Frontend Developer</p>
+            <p class="profession-text">Frontend Developer</p>
             <ul>
               <li><a href="" aria-label="иконка инстаграма"></a></li>
               <li><a href="" aria-label="иконка твиттера"></a></li>
@@ -172,7 +177,7 @@
               height="260"
             />
             <h3>Андрей Шевченко</h3>
-            <p>Marketing</p>
+            <p class="profession-text">Marketing</p>
             <ul>
               <li><a href="" aria-label="иконка инстаграма"></a></li>
               <li><a href="" aria-label="иконка твиттера"></a></li>
@@ -189,7 +194,7 @@
               height="260"
             />
             <h3>Иван Николаев</h3>
-            <p>UI Designer</p>
+            <p class="profession-text">UI Designer</p>
             <ul>
               <li><a href="" aria-label="иконка инстаграма"></a></li>
               <li><a href="" aria-label="иконка твиттера"></a></li>
