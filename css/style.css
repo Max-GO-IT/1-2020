@@ -11,24 +11,14 @@ ul {
 }
 .logo {
   color: #212121;
-  width: 153px;
-  height: 31px;
-  left: 215px;
-  top: 24px;
   font-weight: bold;
   font-family: "Raleway", sans-serif;
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
-
   text-decoration: none;
 }
 .studio {
-  width: 49px;
-  height: 16px;
-  left: 453px;
-  top: 32px;
-
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -38,47 +28,29 @@ ul {
   text-decoration: none;
 }
 .portfolio {
-  width: 77px;
-  height: 16px;
-  left: 552px;
-  top: 32px;
-
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-
   color: #212121;
   text-decoration: none;
 }
 .contacts {
-  width: 77px;
-  height: 16px;
-  left: 552px;
-  top: 32px;
-
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-
   color: #212121;
   text-decoration: none;
 }
 .header-address {
-  width: 122px;
-  height: 16px;
-  left: 1263px;
-  top: 32px;
-
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-
   color: #757575;
   text-decoration: none;
 }
@@ -115,18 +87,81 @@ button:focus {
 
 /* О НАС СЕКЦИЯ*/
 .paragraph-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
   color: #757575;
 }
 
 /* ЧЕМ МЫ ЗАНИМАЕСЯ СЕКЦИЯ*/
 .second-tite {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: #212121;
 }
 .item-text {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: #ffffff;
 }
 
 /*НАША КОМАНДА СЕКЦИЯ*/
 .profession-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
   color: #757575;
+}
+
+/*ПОСТОЯННЫЕ КЛИЕНТЫ СЕКЦИЯ*/
+.third-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+/*ФУТЕР СЕКЦИЯ*/
+.location {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.footer-address {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.call {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
 }
